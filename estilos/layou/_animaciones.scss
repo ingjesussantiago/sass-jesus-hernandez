@@ -7,11 +7,20 @@ animation-duration: 13s;
 animation-delay: 10s; 
 
 @keyframes main_background{
-    0%{background-image: url(../../assets/img/img1.jpg)}
-    25%{background-image: url(../../assets/img/img2.jpg)}
-    50%{background-image: url(../../assets/img/img3.jpg)}
-    75%{background-image: url(../../assets/img/img4.jpg)}
-    100%{background-image: url(../../assets/img/img5.jpg)}
+    0%{background-image: url(../../assets/img/img1.jpg);
+        color:aliceblue;
+    }
+    25%{background-image: url(../../assets/img/img2.jpg);
+      color:white}
+    50%{background-image: url(../../assets/img/img3.jpg);
+    
+    color:azure}
+    75%{background-image: url(../../assets/img/img4.jpg);
+   
+    color:white}
+    100%{background-image: url(../../assets/img/img5.jpg);
+    
+    color: aliceblue;}
 }
 }
 
