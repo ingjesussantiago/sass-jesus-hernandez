@@ -1,0 +1,39 @@
+
+footer{
+    grid-area: footer;
+    background-color: beige;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    section{
+        width: 50%;
+        P{
+            text-align: justify;
+            margin: 5% 15% 5% 15%;
+            font-size: 1.20em;
+        }
+        img{
+        width: 17%;
+        &:hover{
+            border-radius: 25%;
+            background-color: aqua;
+        }
+        }
+
+        ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    text-align: center;
+    list-style-type: none;
+        li{
+            &:hover{
+            transform: translate(0px,15px);
+            }
+    }
+} 
+}
+}
+
