@@ -1,9 +1,9 @@
    /* animaciones */
 main{
-animation-name: main_background;
-animation-iteration-count: infinite;
-animation-timing-function: ease-out;
-animation-duration: 13s;
+// animation-name: main_background;
+// animation-iteration-count: infinite;
+// animation-timing-function: ease-out;
+// animation-duration: 13s;
 animation-delay: 10s; 
 
 @keyframes main_background{
@@ -11,12 +11,10 @@ animation-delay: 10s;
         color:aliceblue;
     }
     25%{background-image: url(../../assets/img/img2.jpg);
-      color:white}
+    color:white}
     50%{background-image: url(../../assets/img/img3.jpg);
-    
     color:azure}
     75%{background-image: url(../../assets/img/img4.jpg);
-   
     color:white}
     100%{background-image: url(../../assets/img/img5.jpg);
     
