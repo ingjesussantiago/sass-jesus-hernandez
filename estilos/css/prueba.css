@@ -7,7 +7,7 @@
 
 header {
   grid-area: header;
-  background-color: beige;
+  background-color: #ade9b2;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,28 +27,9 @@ header {
       width: 15%;
       height: auto; }
 
-main {
-  grid-area: main;
-  background-image: url(../../assets/img/header9.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: right; }
-  main h1 {
-    margin-bottom: 5%; }
-  main button {
-    margin-top: 5%;
-    width: 120px;
-    height: 30px; }
-
 footer {
   grid-area: footer;
-  background-color: beige;
+  background-color: #ade9b2;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -73,13 +54,45 @@ footer {
       footer section ul li:hover {
         transform: translate(0px, 15px); }
 
+main {
+  grid-area: main;
+  background-image: url(../../assets/img/header9.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: right; }
+  main h1 {
+    margin-bottom: 5%; }
+  main button {
+    margin-top: 5%;
+    width: 120px;
+    height: 30px; }
+
 /* animaciones */
 main {
-  animation-name: main_background;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
-  animation-duration: 13s;
   animation-delay: 10s; }
+
+@keyframes main_background {
+  0% {
+    background-image: url(../../assets/img/img1.jpg);
+    color: aliceblue; }
+  25% {
+    background-image: url(../../assets/img/img2.jpg);
+    color: white; }
+  50% {
+    background-image: url(../../assets/img/img3.jpg);
+    color: azure; }
+  75% {
+    background-image: url(../../assets/img/img4.jpg);
+    color: white; }
+  100% {
+    background-image: url(../../assets/img/img5.jpg);
+    color: aliceblue; } }
 
 #logo:hover {
   animation: transparencia 3s;

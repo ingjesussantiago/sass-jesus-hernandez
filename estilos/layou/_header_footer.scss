@@ -1,7 +1,37 @@
+header{
+    grid-area: header;
+    background-color:map-get($map:$pagebackground , $key:pageingresousuario );
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+nav{  
+    width: 70%;
+    ul{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        li{
+            a{margin:5%;
+    
+            }
+            &:hover{
+                transform: translate(-20px,5px);
+                }
+        }
+        }
+    img{
+    width: 15%;
+    height: auto;
+    }
+    }
+}
 
 footer{
     grid-area: footer;
-    background-color: beige;
+    background-color:map-get($map:$pagebackground , $key:pageingresousuario );
     display: flex;
     justify-content:center;
     align-items: center;
@@ -36,4 +66,7 @@ footer{
 } 
 }
 }
+
+
+
 
