@@ -1,12 +1,8 @@
 @import "../layou/mixin";
 @import "../layou/variables";
 @import "../layou/grid";
-@import "../layou/header_footer";
 @import "../layou/animaciones";
 @import "../layou/media";
-
-
-
 
 *{
     margin: 0;
@@ -18,6 +14,8 @@ body{
 
 header{
     @include header ();
+    
+
     }
     
     main{
@@ -26,6 +24,43 @@ header{
     
     footer{
     @include footer();
+    
     }
     
+    .background{
+    background-image:url(../../assets/img/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .backgroundpage1{
+    @extend.background;
+    background-image:url(../../assets/img/bg2.jpeg);
+    }
+
+    .backgroundpage2{
+    @extend.background;
+    background-image:url(../../assets/img/bg3.jpg) ;
+}
+
+.backgroundpage3{
+    @extend.background;
+    background-image:url(../../assets/img/bg4.jpg) ;
+}
+
+.backgroundpage4{
+    @extend.background;
+    background-image:url(../../assets/img/bg5.jpg) ;
+}
+.backgroundpage5{
+    @extend.background;
+    background-image:url(../../assets/img/bg6.jpg) ;
+}
+.backgroundpage6{
+    @extend.background;
+    background-image:url(../../assets/img/edi.jpeg) ;
+}
+
 

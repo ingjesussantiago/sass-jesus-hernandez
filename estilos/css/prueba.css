@@ -61,7 +61,6 @@ body {
 
 header {
   grid-area: header;
-  background-color: beige;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -83,11 +82,6 @@ header {
 
 main {
   grid-area: main;
-  background-image: url(../../assets/img/header9.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -126,3 +120,28 @@ footer {
       list-style-type: none; }
       footer section ul li:hover {
         transform: translate(0px, 15px); }
+
+.background, .backgroundpage1, .backgroundpage2, .backgroundpage3, .backgroundpage4, .backgroundpage5, .backgroundpage6 {
+  background-image: url(../../assets/img/bg1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.backgroundpage1 {
+  background-image: url(../../assets/img/bg2.jpeg); }
+
+.backgroundpage2 {
+  background-image: url(../../assets/img/bg3.jpg); }
+
+.backgroundpage3 {
+  background-image: url(../../assets/img/bg4.jpg); }
+
+.backgroundpage4 {
+  background-image: url(../../assets/img/bg5.jpg); }
+
+.backgroundpage5 {
+  background-image: url(../../assets/img/bg6.jpg); }
+
+.backgroundpage6 {
+  background-image: url(../../assets/img/edi.jpeg); }
