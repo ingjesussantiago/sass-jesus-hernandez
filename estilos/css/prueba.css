@@ -5,6 +5,60 @@
   grid-template-rows: 12% 75%  13%;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
 
+/* animaciones */
+main {
+  animation-delay: 10s; }
+
+@keyframes main_background {
+  0% {
+    background-image: url(../../assets/img/img1.jpg);
+    color: aliceblue; }
+  25% {
+    background-image: url(../../assets/img/img2.jpg);
+    color: white; }
+  50% {
+    background-image: url(../../assets/img/img3.jpg);
+    color: azure; }
+  75% {
+    background-image: url(../../assets/img/img4.jpg);
+    color: white; }
+  100% {
+    background-image: url(../../assets/img/img5.jpg);
+    color: aliceblue; } }
+
+#logo:hover {
+  animation: transparencia 3s;
+  transform: scale(1.2, 1.2); }
+
+@keyframes transparencia {
+  0% {
+    opacity: 1; }
+  10% {
+    opacity: .75; }
+  20% {
+    opacity: .50; }
+  30% {
+    opacity: .25; }
+  40% {
+    opacity: 0; }
+  50% {
+    opacity: .25; }
+  60% {
+    opacity: .50; }
+  70% {
+    opacity: .75; }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh; }
+
 header {
   grid-area: header;
   background-color: beige;
@@ -72,57 +126,3 @@ footer {
       list-style-type: none; }
       footer section ul li:hover {
         transform: translate(0px, 15px); }
-
-/* animaciones */
-main {
-  animation-delay: 10s; }
-
-@keyframes main_background {
-  0% {
-    background-image: url(../../assets/img/img1.jpg);
-    color: aliceblue; }
-  25% {
-    background-image: url(../../assets/img/img2.jpg);
-    color: white; }
-  50% {
-    background-image: url(../../assets/img/img3.jpg);
-    color: azure; }
-  75% {
-    background-image: url(../../assets/img/img4.jpg);
-    color: white; }
-  100% {
-    background-image: url(../../assets/img/img5.jpg);
-    color: aliceblue; } }
-
-#logo:hover {
-  animation: transparencia 3s;
-  transform: scale(1.2, 1.2); }
-
-@keyframes transparencia {
-  0% {
-    opacity: 1; }
-  10% {
-    opacity: .75; }
-  20% {
-    opacity: .50; }
-  30% {
-    opacity: .25; }
-  40% {
-    opacity: 0; }
-  50% {
-    opacity: .25; }
-  60% {
-    opacity: .50; }
-  70% {
-    opacity: .75; }
-  80% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  height: 100vh; }

@@ -2,9 +2,10 @@
 @import "../layou/variables";
 @import "../layou/grid";
 @import "../layou/header_footer";
-@import "../layou/main";
 @import "../layou/animaciones";
 @import "../layou/media";
+
+
 
 
 *{
@@ -14,4 +15,17 @@
 body{
     height: 100vh;
 }
+
+header{
+    @include header ();
+    }
+    
+    main{
+        @include main ();
+    }
+    
+    footer{
+    @include footer();
+    }
+    
 
