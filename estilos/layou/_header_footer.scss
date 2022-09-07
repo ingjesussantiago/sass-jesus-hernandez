@@ -1,6 +1,6 @@
 header{
     grid-area: header;
-    background-color:map-get($map:$pagebackground , $key:pageingresousuario );
+    background-color:beige;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -31,7 +31,7 @@ nav{
 
 footer{
     grid-area: footer;
-    background-color:map-get($map:$pagebackground , $key:pageingresousuario );
+    background-color:beige;
     display: flex;
     justify-content:center;
     align-items: center;
