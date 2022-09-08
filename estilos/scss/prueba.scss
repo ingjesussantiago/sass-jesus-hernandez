@@ -64,3 +64,30 @@ header{
 }
 
 
+
+.page{
+    background-color:map-get($map: $pagebackground, $key:page );
+}
+
+.page1{
+    background-color:map-get($map: $pagebackground, $key:page1 );
+}
+
+.page2{
+    background-color:map-get($map: $pagebackground, $key:page2 );
+}
+.page3{
+    background-color:map-get($map: $pagebackground, $key:page3 );
+}
+
+.page4{
+    background-color:map-get($map: $pagebackground, $key:page4 );
+}
+.page5{
+    background-color:map-get($map: $pagebackground, $key:page5 );
+}
+
+.page6{
+    background-color:map-get($map: $pagebackground, $key:page6 );
+}
+

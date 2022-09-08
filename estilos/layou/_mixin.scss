@@ -1,6 +1,5 @@
 @mixin header ($color:map-get($map:$pagebackground,$key:"pagesitio")) {
     grid-area: header;
-    // background-color:$color;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -31,11 +30,6 @@
 
 @mixin main{
     grid-area: main;
-    // background-image: url(../../assets/img/header9.jpg);
-    // background-attachment: fixed;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -145,3 +145,24 @@ footer {
 
 .backgroundpage6 {
   background-image: url(../../assets/img/edi.jpeg); }
+
+.page {
+  background-color: white; }
+
+.page1 {
+  background-color: beige; }
+
+.page2 {
+  background-color: #8e93f1; }
+
+.page3 {
+  background-color: #78be72; }
+
+.page4 {
+  background-color: #695e61; }
+
+.page5 {
+  background-color: #e289db; }
+
+.page6 {
+  background-color: #e7b185; }
